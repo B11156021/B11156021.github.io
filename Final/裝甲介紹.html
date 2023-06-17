@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Man Introduction</title>
+    <link rel="stylesheet" type="text/css" href="rwd.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <section class="headerNav">
+        <div class="container">
+            <h1 class="logo">
+                <b>
+                    Iron Man
+                </b>
+            </h1>
+
+            <i class="fas fa-bars" id="mobileMenu"></i>
+
+            <ul class="mainNav">
+                <li class="navItem">
+                    <a href="裝甲介紹.html" target="_self">裝甲介紹</a>
+                </li>
+                <li class=" navItem ">
+                    <a href="裝甲解析.html" target="_self">裝甲解析</a>
+                </li>
+                <li class="navItem ">
+                    <a href="回顧.html" target="_self">回顧</a>
+                </li>
+
+        </div>
+    </section>
+
+    <h1 style="text-align: center; ">裝甲介紹</h1>
+    <div class="wrap ">
+        <ul class="news clearfix ">
+
+            <li>
+                <h2>MARK I</h2>
+                <img src="IRON-MAN-MARK-1.webp " width="250 " height="275 " alt=" ">
+                <p style="text-align: left; ">2008年，第一套《Iron Man》電影上映，Tony Stark於山洞內利用導彈物料自行改裝成第一套裝甲Iron Man MARK 1，當然設計是極無美感，但功能足夠令Tony Stark逃脫及進行攻擊！</p>
+            </li>
+            <li>
+                <h2>Mark II</h2>
+                <img src="Iron-Man-Mark-II.webp " width="250 " height="275 " alt=" ">
+                <p style="text-align: left; ">Tony Stark從山洞逃走後，決定自製裝甲，而Iron Man Mark II正是以後Iron Man戰甲造型的最元祖設計，基本上以後的變化都是源自於此。</p>
+            </li>
+            <li>
+                <h2>Mark III</h2>
+                <img src="Iron-Man-Mark-III.webp " width="250 " height="275 " alt=" ">
+                <p style="text-align: left; ">Iron Man Mark III是第一套真正可以上戰場，因為Tony Stark終於為這裝甲加入武器，亦終於加入紅色及金色的設定。</p>
+            </li>
+            <li>
+                <h2>Mark IV</h2>
+                <img src="Iron-Man-Mark-IV.webp " width="250 " height="275 " alt=" ">
+                <p style="text-align: left; ">Iron Man Mark IV在2010年的《Iron Man 2》之中正式出現，Iron Man Mark IV與Iron Man Mark III之間的分別不大，不過外表上有少許的線條分別。</p>
+            </li>
+            <li>
+                <h2>Mark 44 Hulkbuster</h2>
+                <img src="Iron-Man-Mark-44-Hulkbuster.webp " width="250 " height="275 " alt=" ">
+                <p style="text-align: left; ">Iron Man Mark 44 Hulkbuster可說是《Avengers：Age of Ultron》之中最為亮眼的裝甲，因為是從衛星射出，在地上組裝，製造的目的，就是防範Hulk的暴走！</p>
+            </li>
+            <li>
+                <h2>Mark 45</h2>
+                <img src="Iron-Man-Mark-45.webp " width="250 " height="275 " alt=" ">
+                <p style="text-align: left; ">Iron Man Mark 45 可說是再新一世代的裝甲，一改機械感，換來的是極流線的身型，加上更多的燈光，感覺更具未來感！</p>
+            </li>
+            <li>
+                <h2>Mark 47</h2>
+                <img src="Iron-Man-Mark-47.webp " width="250 " height="275 " alt=" ">
+                <p style="text-align: left; ">Iron Man Mark 47以紅銀色為主，給人耳目一新的感覺！又有多少人會愛上這一種設定呢？不過卻好像在說，這一集不是我做主角呢，才不要那麼搶眼！</p>
+            </li>
+            <li>
+                <h2>Mark 50</h2>
+                <img src="Iron-Man-Mark-50.webp " width="250 " height="275 " alt=" ">
+                <p style="text-align: left; ">在《復仇者聯盟3：無限之戰》之中出現的Iron Man Mark 50，完完全全跟以往的裝甲不同，可以從身上變化出不同的武器及推進器，是完全新一代的戰甲，用上了納米技術收藏在反應器之中，隨時可以變出來將裝甲在身上組成！</p>
+            </li>
+        </ul>
+    </div>
+
+</body>
+<script>
+    var mobileMenu = document.getElementById("mobileMenu ");
+    var mainNav = document.querySelector(".mainNav ");
+    var headerNav = document.querySelector(".headerNav ");
+
+    mobileMenu.addEventListener("click ", function() {
+        mainNav.classList.toggle("mainNavShow ");
+        headerNav.classList.toggle("headerNavShow ");
+    });
+</script>
+
+</html>
